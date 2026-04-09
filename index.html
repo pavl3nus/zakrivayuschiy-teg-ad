@@ -26,7 +26,7 @@
                 Фритрек и нулевой спринт: Подготовка к работе
               </h2>
               <div class="card__picture-container">
-                <picture class="card__image">
+                <picture class="card__image card__image--start">
                   <source
                     media="(min-width: 375px)"
                     srcset="./images/bus.jpg"
@@ -606,11 +606,13 @@
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <p class="dialog__maessage">Вставьте дискету, чтобы продолжить</p>
-        <form method="dialog">
-          <button class="dialog__close-button" type="submit">
-            <span>Ок</span>
-          </button>
-        </form>
+        <button
+          class="dialog__close-button"
+          type="button"
+          onclick="window['insert-floppy'].close()"
+        >
+          <span>Ок</span>
+        </button>
       </dialog>
     </footer>
     <script src="./scripts/like.js"></script>
