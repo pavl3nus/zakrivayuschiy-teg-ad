@@ -1,1 +1,1 @@
-https://github.com/pavl3nus/zakrivayuschiy-teg-ad
+сайт: https://pavl3nus.github.io/zakrivayuschiy-teg-ad/
