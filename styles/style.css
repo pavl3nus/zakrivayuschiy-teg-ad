@@ -119,7 +119,7 @@
 }
 
 .card__image--sadness {
-  filter: grayscale(0.9) brightness(0.5) contrast(1.2);
+  filter: sepia(0.9) brightness(0.5) contrast(1.2);
 }
 
 .card__image--ideal {
@@ -253,7 +253,7 @@ dialog[open] {
   font-family: var(--accent-font-family);
   font-size: 14px;
   text-transform: uppercase;
-  inline-size: 357px; 
+  inline-size: 357px;
 }
 
 .dialog__icon {
